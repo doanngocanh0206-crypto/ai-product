@@ -46,7 +46,7 @@ alert("Đã copy")
 }
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
-const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
+const genAI = new GoogleGenerativeAI(process.env.AIzaSyDzGX7OVg5iJqphhXeil-Q9x7EbcDXH0JA);
 
 export default async function handler(req,res){
 
