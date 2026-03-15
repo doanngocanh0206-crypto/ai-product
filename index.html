@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>AI Product Description Generator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>AI Product Description Generator</h1>
+
+<div class="form">
+
+<label>Tên sản phẩm</label>
+<input type="text" id="productName">
+
+<label>Tính năng chính</label>
+<textarea id="features"></textarea>
+
+<label>Lợi ích cho khách hàng</label>
+<textarea id="benefits"></textarea>
+
+<label>Từ khóa SEO</label>
+<input type="text" id="keywords">
+
+<button onclick="generateDescription()">
+Generate Description
+</button>
+
+</div>
+
+<div class="result">
+<h2>Kết quả</h2>
+<div id="output"></div>
+<button onclick="copyText()">Copy</button>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
